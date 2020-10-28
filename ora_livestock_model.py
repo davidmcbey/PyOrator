@@ -75,8 +75,8 @@ def test_livestock_algorithms(form):
     for crop in crop_list:
         crop_rotations = list(crop.crop_rotation_info)
         feed_avail_change[f'area_{n}_crop'] = crop_rotations
-        prod_comp_ss_mon = list(crop.yield_atyp_mon)
-        feed_avail_change[f'area_{n}_yield_change'] = prod_comp_ss_mon
+        yield_atyp_mon = list(crop.yield_atyp_mon)
+        feed_avail_change[f'area_{n}_yield_change'] = yield_atyp_mon
         n += 1
     feed_avail_dic = feed_avail_change.to_dict(orient='records')
 

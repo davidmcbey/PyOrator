@@ -78,7 +78,7 @@ def test_crop_algorithms(form):
 
     class CropInfo:
         """Information on crops"""
-
+        # TODO Most of these attributes can be removed? Check with Mike
         def __init__(self, area_name, crop_area, soil_depth, pcnt_clay, pcnt_silt, pcnt_sand, pcnt_carbon, bulk_den, ph,
                      salinity, ):
 
