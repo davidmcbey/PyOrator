@@ -1,0 +1,8 @@
+{
+  "setup": {
+    "config_dir": "E:\\ORATOR_Dev\\config",
+    "fname_child_png": "E:\\ORATOR_Dev\\Images\\orator_logo_small.png",
+    "fname_png": "E:\\ORATOR_Dev\\Images\\orator_logo_small.png",
+    "orator_dir": "E:\\ORATOR_Dev"
+  }
+}
